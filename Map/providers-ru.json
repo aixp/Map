@@ -1,0 +1,168 @@
+[
+	{
+		"name": "OpenStreetMap",
+		"crs": "EPSG:3857",
+		"zmin": 0,
+		"zmax": 19,
+		"dir": "OSM",
+		"url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+	},
+	{
+		"name": "Google Map (ru)",
+		"crs": "EPSG:3857",
+		"zmin": 0,
+		"zmax": 19,
+		"dir": "GOOGLE_MAP_RU",
+		"url": "http://mt0.google.com/vt/lyrs=m&hl=ru&x={x}&y={y}&z={z}"
+	},
+	{
+		"name": "Wiki Map (ru)",
+		"crs": "EPSG:3857",
+		"zmin": 0,
+		"zmax": 22,
+		"dir": "WIKI_MAP_RU",
+		"url": "http://i{wn}.wikimapia.org/?x={x}&y={y}&zoom={z}&type=map&lng=1"
+	},
+	{
+		"name": "2GIS Map",
+		"crs": "EPSG:3857",
+		"zmin": 0,
+		"zmax": 18,
+		"dir": "2GIS_MAP",
+		"url": "http://tile2.maps.2gis.com/tiles?x={x}&y={y}&z={z}&v=1.1"
+	},
+	{
+		"name": "Google Landscape (ru)",
+		"crs": "EPSG:3857",
+		"zmin": 0,
+		"zmax": 19,
+		"dir": "GOOGLE_LANDSCAPE_RU",
+		"format": "jpeg",
+		"url": "http://mt0.google.com/vt/lyrs=p&hl=ru&x={x}&y={y}&z={z}"
+	},
+	{
+		"name": "Bing Satellite (ru)",
+		"crs": "EPSG:3857",
+		"zmin": 1,
+		"zmax": 19,
+		"dir": "BING_SAT",
+		"url": "http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=0&dir=dir_n'",
+		"format": "jpeg",
+		"dir2": "GOOGLE_HYBRID_RU",
+		"url2": "http://mt0.google.com/vt/lyrs=h&hl=ru&x={x}&y={y}&z={z}"
+	},
+	{
+		"name": "Yandex Satellite (ru)",
+		"crs": "EPSG:3395",
+		"zmin": 0,
+		"zmax": 19,
+		"dir": "YANDEX_SAT",
+		"format": "jpeg",
+		"url": "https://core-sat.maps.yandex.net/tiles?l=sat&x={x}&y={y}&z={z}",
+		"dir2": "YANDEX_HYBRID_RU",
+		"url2": "https://core-renderer-tiles.maps.yandex.net/tiles?l=skl&x={x}&y={y}&z={z}&lang=ru_RU"
+	},
+	{
+		"name": "Google Satellite (ru)",
+		"crs": "EPSG:3857",
+		"zmin": 0,
+		"zmax": 19,
+		"dir": "GOOGLE_SAT",
+		"format": "jpeg",
+		"url": "http://mt0.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+		"dir2": "GOOGLE_HYBRID_RU",
+		"url2": "http://mt0.google.com/vt/lyrs=h&hl=ru&x={x}&y={y}&z={z}"
+	},
+
+	{
+		"name": "user @ OpenStreetMap",
+		"crs": "EPSG:3857",
+		"dir": "OSM",
+		"url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+		"zmin": 0,
+		"zmax": 19,
+		"dir2": "USER",
+		"zmin2": 0,
+		"zmax2": 22
+	},
+	{
+		"name": "user @ Bing Sat (ru)",
+		"crs": "EPSG:3857",
+		"dir": "BING_SAT",
+		"url": "http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=0&dir=dir_n'",
+		"format": "jpeg",
+		"zmin": 1,
+		"zmax": 19,
+		"dir2": "USER",
+		"zmin2": 1,
+		"zmax2": 22,
+		"dir3": "GOOGLE_HYBRID_RU",
+		"url3": "http://mt0.google.com/vt/lyrs=h&hl=ru&x={x}&y={y}&z={z}",
+		"zmin3": 1,
+		"zmax3": 19
+	},
+
+	{
+		"name": "OPM Moon Basemap v0.1",
+		"description": "https://www.openplanetary.org/opm-basemaps/opm-moon-basemap-v0-1",
+		"crs": "IAU2000:30174",
+		"zmin": 0,
+		"zmax": 7,
+		"dir": "OPM_MOON_BASEMAP_V01",
+		"url": "https://cartocdn-gusc.global.ssl.fastly.net/opmbuilder/api/v1/map/named/opm-moon-basemap-v0-1/all/{z}/{x}/{y}.png"
+	},
+	{
+		"name": "OPM Mars Basemap v0.2",
+		"description": "https://www.openplanetary.org/opm-basemaps/opm-mars-basemap-v0-2",
+		"crs": "Web Mercator (Mars)",
+		"zmin": 0,
+		"zmax": 18,
+		"dir": "OPM_MARS_BASEMAP_V02",
+		"url": "https://cartocdn-gusc.global.ssl.fastly.net/opmbuilder/api/v1/map/named/opm-mars-basemap-v0-2/all/{z}/{x}/{y}.png"
+	},
+	{
+		"name": "Mars Shaded Colour MOLA Elevation",
+		"description": "https://www.openplanetary.org/opm-basemaps/shaded-colour-mola-elevation",
+		"crs": "Web Mercator (Mars)",
+		"zmin": 0,
+		"zmax": 6,
+		"dir": "MARS_MOLA_COLOR",
+		"flipY": true,
+		"url": "http://s3-eu-west-1.amazonaws.com/whereonmars.cartodb.net/mola-color/{z}/{x}/{y}.png"
+	},
+	{
+		"name": "Mars HiRISE",
+		"crs": "Web Mercator (Mars)",
+		"zmin": 0,
+		"zmax": 9,
+		"dir": "HiRISE",
+		"flipY": true,
+		"format": "jpeg",
+		"url": "https://gmaps-bkup.uahirise.org/mars/visible/{z}/{x}/{y}.jpg"
+	},
+	{
+		"name": "Mars",
+		"crs": "Web Mercator (Mars)",
+		"dir": "HiRISE",
+		"format": "jpeg",
+		"flipY": true,
+		"url": "https://gmaps-bkup.uahirise.org/mars/visible/{z}/{x}/{y}.jpg",
+		"zmin": 0,
+		"zmax": 8,
+		"dir2": "HMC_13E10_co5_colorcorrect_rect",
+		"url2": "https://mars.nasa.gov/mmgis-maps/M20/Layers/HMC_13E10_co5_colorcorrect_rect/{z}/{x}/{y}.png",
+		"zmin2": 0,
+		"zmax2": 12,
+		"flipY2": true,
+		"dir3": "M20_7_HiRISE_LRGB_mosaic_v2_minmax",
+		"url3": "https://mars.nasa.gov/mmgis-maps/M20/Layers/M20_7_HiRISE_LRGB_mosaic_v2_minmax/{z}/{x}/{y}.png",
+		"zmin3": 8,
+		"zmax3": 19,
+		"flipY3": true,
+		"dir4": "M20_Placenames_175k_800dpi",
+		"url4": "https://mars.nasa.gov/mmgis-maps/M20/Layers/M20_Placenames_175k_800dpi/{z}/{x}/{y}.png",
+		"flipY4": true,
+		"zmin4": 4,
+		"zmax4": 12
+	}
+]

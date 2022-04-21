@@ -1,0 +1,149 @@
+# Spanish translations for Map package.
+# Copyright (C) 2022 THE Map'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Map package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Map 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Map.gs:1757 Map.gs:1759 Map.ui:554 Map.ui:704 Map.ui:716
+msgid "m"
+msgstr "m"
+
+#: Map.gs:1764 Map.gs:1766
+msgid "km"
+msgstr "km"
+
+#: Map.gs:2087 Map.gs:4268
+msgid "zoom"
+msgstr "zoom"
+
+#: Map.gs:2154 Map.ui:870
+msgid "measure"
+msgstr "medida"
+
+#: Map.gs:2169 Map.ui:888
+msgid "add poly"
+msgstr "añadir poli"
+
+#: Map.gs:2182 Map.ui:879
+msgid "add points"
+msgstr "añadir puntos"
+
+#: Map.gs:2196 Map.ui:813 Map.ui:897
+msgid "edit route"
+msgstr "editar ruta"
+
+#: Map.gs:2209 Map.ui:912
+msgid "fly here"
+msgstr "vuela aquí"
+
+#: Map.gs:2963
+msgid "raster"
+msgstr "ráster"
+
+#: Map.gs:2963
+msgid "vector"
+msgstr "vectorial"
+
+#: Map.gs:3433 Map.gs:3470
+msgid "error"
+msgstr "error"
+
+#: Map.ui:8
+msgid "Map"
+msgstr "Mapa"
+
+#: Map.ui:118
+msgid "Point"
+msgstr "Punto"
+
+#: Map.ui:186 Map.ui:346
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+#: Map.ui:219
+msgid "Label"
+msgstr "Etiqueta"
+
+#: Map.ui:249
+msgid "Description"
+msgstr "Descripción"
+
+#: Map.ui:261
+msgid "delete"
+msgstr "eliminar"
+
+#: Map.ui:278
+msgid "Route point"
+msgstr "Punto de ruta"
+
+#: Map.ui:389
+msgid "apply for all route points"
+msgstr "aplicar para todos los puntos de ruta"
+
+#: Map.ui:407
+msgid "Altitude"
+msgstr "Altitud"
+
+#: Map.ui:444 Map.ui:639
+msgid "tacks"
+msgstr "tachuelas"
+
+#: Map.ui:458 Map.ui:774
+msgid "approaches"
+msgstr "enfoques"
+
+#: Map.ui:492 Map.ui:654
+msgid "count"
+msgstr "monto"
+
+#: Map.ui:517
+msgid "bearing"
+msgstr "ángulo"
+
+#: Map.ui:590
+msgid "length"
+msgstr "longitud"
+
+#: Map.ui:602
+msgid "capture"
+msgstr "captura"
+
+#: Map.ui:791
+msgid "Maneur"
+msgstr "Maniobra"
+
+#: Map.ui:827 Map.ui:952 Map.ui:974
+msgid "delete point"
+msgstr "borrar punto"
+
+#: Map.ui:841
+msgid "delete route"
+msgstr "borrar ruta"
+
+#: Map.ui:927
+msgid "provider"
+msgstr "proveedor"
+
+#: Map.ui:939
+msgid "cancel"
+msgstr "cancelar"
+
+#: Map.ui:961
+msgid "delete measure"
+msgstr "borrar medida"
+
+#: Map.ui:983
+msgid "delete poly"
+msgstr "borrar poli"

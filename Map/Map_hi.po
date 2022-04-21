@@ -1,0 +1,148 @@
+# Hindi translations for Map package.
+# Copyright (C) 2022 THE Map'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Map package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Map 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Map.gs:1757 Map.gs:1759 Map.ui:554 Map.ui:704 Map.ui:716
+msgid "m"
+msgstr "मीटर"
+
+#: Map.gs:1764 Map.gs:1766
+msgid "km"
+msgstr "किलोमीटर"
+
+#: Map.gs:2087 Map.gs:4268
+msgid "zoom"
+msgstr "ज़ूम"
+
+#: Map.gs:2154 Map.ui:870
+msgid "measure"
+msgstr "उपाय"
+
+#: Map.gs:2169 Map.ui:888
+msgid "add poly"
+msgstr "बहुभुज जोड़ें"
+
+#: Map.gs:2182 Map.ui:879
+msgid "add points"
+msgstr "अंक जोड़ें"
+
+#: Map.gs:2196 Map.ui:813 Map.ui:897
+msgid "edit route"
+msgstr "मार्ग संपादित करें"
+
+#: Map.gs:2209 Map.ui:912
+msgid "fly here"
+msgstr "यहाँ उड़ो"
+
+#: Map.gs:2963
+msgid "raster"
+msgstr "रेखापुंज"
+
+#: Map.gs:2963
+msgid "vector"
+msgstr "वेक्टर"
+
+#: Map.gs:3433 Map.gs:3470
+msgid "error"
+msgstr "त्रुटि"
+
+#: Map.ui:8
+msgid "Map"
+msgstr "नक्शा"
+
+#: Map.ui:118
+msgid "Point"
+msgstr "बिंदु"
+
+#: Map.ui:186 Map.ui:346
+msgid "Coordinates"
+msgstr "निर्देशांक"
+
+#: Map.ui:219
+msgid "Label"
+msgstr "लेबल"
+
+#: Map.ui:249
+msgid "Description"
+msgstr "विवरण"
+
+#: Map.ui:261
+msgid "delete"
+msgstr "मिटाना"
+
+#: Map.ui:278
+msgid "Route point"
+msgstr "मार्ग बिंदु"
+
+#: Map.ui:389
+msgid "apply for all route points"
+msgstr "सभी मार्ग बिंदुओं के लिए आवेदन करें"
+
+#: Map.ui:407
+msgid "Altitude"
+msgstr "ऊंचाई"
+
+#: Map.ui:444 Map.ui:639
+msgid "tacks"
+msgstr "टैक्स"
+
+#: Map.ui:458 Map.ui:774
+msgid "approaches"
+msgstr "दृष्टिकोण"
+
+#: Map.ui:492 Map.ui:654
+msgid "count"
+msgstr "रकम"
+
+#: Map.ui:517
+msgid "bearing"
+msgstr "कोण"
+
+#: Map.ui:590
+msgid "length"
+msgstr "लंबाई"
+
+#: Map.ui:602
+msgid "capture"
+msgstr "कब्जा"
+
+#: Map.ui:791
+msgid "Maneur"
+msgstr "एनेवेर"
+
+#: Map.ui:827 Map.ui:952 Map.ui:974
+msgid "delete point"
+msgstr "बिंदु हटाएं"
+
+#: Map.ui:841
+msgid "delete route"
+msgstr "मार्ग हटाएं"
+
+#: Map.ui:927
+msgid "provider"
+msgstr "प्रदाता"
+
+#: Map.ui:939
+msgid "cancel"
+msgstr "रद्द करें"
+
+#: Map.ui:961
+msgid "delete measure"
+msgstr "उपाय उपकरण हटाएं"
+
+#: Map.ui:983
+msgid "delete poly"
+msgstr "बहुभुज हटाएं"

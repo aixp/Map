@@ -1,0 +1,150 @@
+# Russian translations for Map package.
+# Copyright (C) 2021 THE Map'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Map package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Map 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: Map.gs:1757 Map.gs:1759 Map.ui:554 Map.ui:704 Map.ui:716
+msgid "m"
+msgstr "м"
+
+#: Map.gs:1764 Map.gs:1766
+msgid "km"
+msgstr "км"
+
+#: Map.gs:2087 Map.gs:4268
+msgid "zoom"
+msgstr "масштаб"
+
+#: Map.gs:2154 Map.ui:870
+msgid "measure"
+msgstr "измерение"
+
+#: Map.gs:2169 Map.ui:888
+msgid "add poly"
+msgstr "ввод полигона"
+
+#: Map.gs:2182 Map.ui:879
+msgid "add points"
+msgstr "ввод точек"
+
+#: Map.gs:2196 Map.ui:813 Map.ui:897
+msgid "edit route"
+msgstr "ввод маршрута"
+
+#: Map.gs:2209 Map.ui:912
+msgid "fly here"
+msgstr "ввод доп. цели"
+
+#: Map.gs:2963
+msgid "raster"
+msgstr "растр"
+
+#: Map.gs:2963
+msgid "vector"
+msgstr "вектор"
+
+#: Map.gs:3433 Map.gs:3470
+msgid "error"
+msgstr "ошибка"
+
+#: Map.ui:8
+msgid "Map"
+msgstr "Карта"
+
+#: Map.ui:118
+msgid "Point"
+msgstr "Точка"
+
+#: Map.ui:186 Map.ui:346
+msgid "Coordinates"
+msgstr "Координаты"
+
+#: Map.ui:219
+msgid "Label"
+msgstr "Надпись"
+
+#: Map.ui:249
+msgid "Description"
+msgstr "Описание"
+
+#: Map.ui:261
+msgid "delete"
+msgstr "удалить"
+
+#: Map.ui:278
+msgid "Route point"
+msgstr "Точка маршрута"
+
+#: Map.ui:389
+msgid "apply for all route points"
+msgstr "применить ко всем точкам маршрута"
+
+#: Map.ui:407
+msgid "Altitude"
+msgstr "Высота"
+
+#: Map.ui:444 Map.ui:639
+msgid "tacks"
+msgstr "галсы"
+
+#: Map.ui:458 Map.ui:774
+msgid "approaches"
+msgstr "заходы"
+
+#: Map.ui:492 Map.ui:654
+msgid "count"
+msgstr "количество"
+
+#: Map.ui:517
+msgid "bearing"
+msgstr "азимут"
+
+#: Map.ui:590
+msgid "length"
+msgstr "длина"
+
+#: Map.ui:602
+msgid "capture"
+msgstr "захват"
+
+#: Map.ui:791
+msgid "Maneur"
+msgstr "Манёвр"
+
+#: Map.ui:827 Map.ui:952 Map.ui:974
+msgid "delete point"
+msgstr "удалить точку"
+
+#: Map.ui:841
+msgid "delete route"
+msgstr "удалить маршрут"
+
+#: Map.ui:927
+msgid "provider"
+msgstr "карта"
+
+#: Map.ui:939
+msgid "cancel"
+msgstr "отмена"
+
+#: Map.ui:961
+msgid "delete measure"
+msgstr "удалить измеритель"
+
+#: Map.ui:983
+msgid "delete poly"
+msgstr "удалить полигон"

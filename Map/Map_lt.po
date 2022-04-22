@@ -1,0 +1,150 @@
+# Lithuanian translations for Map package.
+# Copyright (C) 2022 THE Map'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Map package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Map 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: Map.gs:1757 Map.gs:1759 Map.ui:554 Map.ui:704 Map.ui:716
+msgid "m"
+msgstr ""
+
+#: Map.gs:1764 Map.gs:1766
+msgid "km"
+msgstr "km"
+
+#: Map.gs:2087 Map.gs:4268
+msgid "zoom"
+msgstr "priartinti"
+
+#: Map.gs:2154 Map.ui:870
+msgid "measure"
+msgstr "matuoti"
+
+#: Map.gs:2169 Map.ui:888
+msgid "add poly"
+msgstr "pridėti daugiakampį"
+
+#: Map.gs:2182 Map.ui:879
+msgid "add points"
+msgstr "pridėti taškų"
+
+#: Map.gs:2196 Map.ui:813 Map.ui:897
+msgid "edit route"
+msgstr "redaguoti maršrutą"
+
+#: Map.gs:2209 Map.ui:912
+msgid "fly here"
+msgstr "skristi čia"
+
+#: Map.gs:2963
+msgid "raster"
+msgstr "rastras"
+
+#: Map.gs:2963
+msgid "vector"
+msgstr "vektorius"
+
+#: Map.gs:3433 Map.gs:3470
+msgid "error"
+msgstr "klaida"
+
+#: Map.ui:8
+msgid "Map"
+msgstr "Žemėlapis"
+
+#: Map.ui:118
+msgid "Point"
+msgstr "Taškas"
+
+#: Map.ui:186 Map.ui:346
+msgid "Coordinates"
+msgstr "Koordinatės"
+
+#: Map.ui:219
+msgid "Label"
+msgstr "Etiketė"
+
+#: Map.ui:249
+msgid "Description"
+msgstr "Apibūdinimas"
+
+#: Map.ui:261
+msgid "delete"
+msgstr "Ištrinti"
+
+#: Map.ui:278
+msgid "Route point"
+msgstr "Maršruto taškas"
+
+#: Map.ui:389
+msgid "apply for all route points"
+msgstr "kreiptis į visus maršruto taškus"
+
+#: Map.ui:407
+msgid "Altitude"
+msgstr "Aukštis"
+
+#: Map.ui:444 Map.ui:639
+msgid "tacks"
+msgstr "smaigaliai"
+
+#: Map.ui:458 Map.ui:774
+msgid "approaches"
+msgstr "požiūriai"
+
+#: Map.ui:492 Map.ui:654
+msgid "count"
+msgstr "suma"
+
+#: Map.ui:517
+msgid "bearing"
+msgstr "kampu"
+
+#: Map.ui:590
+msgid "length"
+msgstr "ilgio"
+
+#: Map.ui:602
+msgid "capture"
+msgstr "užfiksuoti"
+
+#: Map.ui:791
+msgid "Maneur"
+msgstr "Manevras"
+
+#: Map.ui:827 Map.ui:952 Map.ui:974
+msgid "delete point"
+msgstr ""
+
+#: Map.ui:841
+msgid "delete route"
+msgstr "ištrinti tašką"
+
+#: Map.ui:927
+msgid "provider"
+msgstr "teikėjas"
+
+#: Map.ui:939
+msgid "cancel"
+msgstr "atšaukti"
+
+#: Map.ui:961
+msgid "delete measure"
+msgstr "ištrinti matą"
+
+#: Map.ui:983
+msgid "delete poly"
+msgstr "ištrinti daugiakampį"

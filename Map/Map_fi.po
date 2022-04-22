@@ -1,0 +1,149 @@
+# Finnish translations for Map package.
+# Copyright (C) 2022 THE Map'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Map package.
+# Automatically generated, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Map 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Map.gs:1757 Map.gs:1759 Map.ui:554 Map.ui:704 Map.ui:716
+msgid "m"
+msgstr "m"
+
+#: Map.gs:1764 Map.gs:1766
+msgid "km"
+msgstr "km"
+
+#: Map.gs:2087 Map.gs:4268
+msgid "zoom"
+msgstr "zoomaus"
+
+#: Map.gs:2154 Map.ui:870
+msgid "measure"
+msgstr "mitata"
+
+#: Map.gs:2169 Map.ui:888
+msgid "add poly"
+msgstr "lisää monikulmio"
+
+#: Map.gs:2182 Map.ui:879
+msgid "add points"
+msgstr "lisää pisteitä"
+
+#: Map.gs:2196 Map.ui:813 Map.ui:897
+msgid "edit route"
+msgstr "muokkaa reittiä"
+
+#: Map.gs:2209 Map.ui:912
+msgid "fly here"
+msgstr "lentää tänne"
+
+#: Map.gs:2963
+msgid "raster"
+msgstr "rasteri"
+
+#: Map.gs:2963
+msgid "vector"
+msgstr "vektori"
+
+#: Map.gs:3433 Map.gs:3470
+msgid "error"
+msgstr "virhe"
+
+#: Map.ui:8
+msgid "Map"
+msgstr "Kartta"
+
+#: Map.ui:118
+msgid "Point"
+msgstr "Kohta"
+
+#: Map.ui:186 Map.ui:346
+msgid "Coordinates"
+msgstr "Koordinaatit"
+
+#: Map.ui:219
+msgid "Label"
+msgstr "Label"
+
+#: Map.ui:249
+msgid "Description"
+msgstr "Kuvaus"
+
+#: Map.ui:261
+msgid "delete"
+msgstr "poistaa"
+
+#: Map.ui:278
+msgid "Route point"
+msgstr "Reittipiste"
+
+#: Map.ui:389
+msgid "apply for all route points"
+msgstr "hakea kaikkiin reittipisteisiin"
+
+#: Map.ui:407
+msgid "Altitude"
+msgstr "Korkeus"
+
+#: Map.ui:444 Map.ui:639
+msgid "tacks"
+msgstr "takit"
+
+#: Map.ui:458 Map.ui:774
+msgid "approaches"
+msgstr "lähestymistapoja"
+
+#: Map.ui:492 Map.ui:654
+msgid "count"
+msgstr "määrä"
+
+#: Map.ui:517
+msgid "bearing"
+msgstr "kulma"
+
+#: Map.ui:590
+msgid "length"
+msgstr "pituus"
+
+#: Map.ui:602
+msgid "capture"
+msgstr "kaapata"
+
+#: Map.ui:791
+msgid "Maneur"
+msgstr "Liikkumavaraa"
+
+#: Map.ui:827 Map.ui:952 Map.ui:974
+msgid "delete point"
+msgstr "poista piste"
+
+#: Map.ui:841
+msgid "delete route"
+msgstr "poista reitti"
+
+#: Map.ui:927
+msgid "provider"
+msgstr "tarjoaja"
+
+#: Map.ui:939
+msgid "cancel"
+msgstr "peruuttaa"
+
+#: Map.ui:961
+msgid "delete measure"
+msgstr "poista mitta"
+
+#: Map.ui:983
+msgid "delete poly"
+msgstr "poista monikulmio"

@@ -6,13 +6,29 @@ This is mapping software primarily developed as part of Unmanned Aerial Systems 
 
 ## Install build requirements
 
+### Ubuntu 22.04 LTS
+
+    apt install valac libgtk-3-dev libgee-0.8-dev libsqlite3-dev libsoup-3.0-dev
+
 ### Manjaro
 
-    pacman -S python vala make gettext libgee libsoup3 appimagetool-bin
+    pacman -S python vala make gettext libgee libsoup3
 
 ### OpenBSD
 
     pkg_add python vala gettext gtk+3 libsoup3 json-glib
+
+## Install AppImage build requirements (optional)
+
+### Ubuntu 22.04 LTS
+
+    apt install patchelf
+
+[AppImageTool](https://appimage.github.io/appimagetool/)
+
+### Manjaro
+
+    pacman -S patchelf appimagetool-bin
 
 ## Build
 

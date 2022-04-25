@@ -14,12 +14,31 @@ find ${APPDIR}/usr/lib/ -type f -name "*.so*" | while read line; do
 	patchelf --set-rpath '$ORIGIN' ${line}
 done
 
-cp -Rp /usr/lib/gio /usr/lib/gvfs ${APPDIR}/usr/lib/
+if [ -d /usr/lib/x86_64-linux-gnu/gio ]; then
+	cp -Rp /usr/lib/x86_64-linux-gnu/gio ${APPDIR}/usr/lib/
+elif [ -d /usr/lib/gio ]; then
+	cp -Rp /usr/lib/gio ${APPDIR}/usr/lib/
+else
+	echo "WARNING: gio not found"
+fi
+if [ -d /usr/lib/x86_64-linux-gnu/gvfs ]; then
+	cp -Rp /usr/lib/x86_64-linux-gnu/gvfs ${APPDIR}/usr/lib/
+	ls /usr/lib/x86_64-linux-gnu/gvfs | while read line; do
+		if [ ! -e ${APPDIR}/usr/lib/${line} ]; then
+			ln -s gvfs/${line} ${APPDIR}/usr/lib/
+		fi
+	done
+elif [ -d /usr/lib/gvfs ]; then
+	cp -Rp /usr/lib/gvfs ${APPDIR}/usr/lib/
+	ls /usr/lib/gvfs | while read line; do
+		if [ ! -e ${APPDIR}/usr/lib/${line} ]; then
+			ln -s gvfs/${line} ${APPDIR}/usr/lib/
+		fi
+	done
+else
+	echo "WARNING: gvfs not found"
+fi
 
-ls /usr/lib/gvfs | while read line; do
-	if [ ! -e ${APPDIR}/usr/lib/${line} ]; then
-		ln -s gvfs/${line} ${APPDIR}/usr/lib/
-	fi
-done
-
-cp -p -L /usr/lib/libgconf-2.so ${APPDIR}/usr/lib/
+if [ -e /usr/lib/libgconf-2.so ]; then
+	cp -p -L /usr/lib/libgconf-2.so ${APPDIR}/usr/lib/
+fi

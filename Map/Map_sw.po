@@ -113,7 +113,7 @@ msgstr "pembe"
 
 #: Map.ui:590
 msgid "length"
-msgstr ""
+msgstr "urefu"
 
 #: Map.ui:602
 msgid "capture"

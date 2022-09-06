@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Alexander Shiryaev, 2022.01
+# Alexander Shiryaev, 2022.01, 2022.09
 #
 
 import sys, sqlite3
@@ -23,12 +23,12 @@ def processDir (c, d, updateOnly):
 	r = []
 	while True:
 		row = c.fetchone()
-		if row == None:
+		if row is None:
 			break
 		x, y, zoom, srcUpdated, dstUpdated = row
 
 		n += 1
-		if dstUpdated == None:
+		if dstUpdated is None:
 			m += 1
 
 		print("%s: %02d/%8d/%8d: %19s -> %19s, total = %d, new = %d" % (d, zoom, x, y, dstUpdated, srcUpdated, n, m))
@@ -44,10 +44,10 @@ def processDir (c, d, updateOnly):
 	for x, y, zoom in r:
 		c.execute("SELECT src.%s.updated, src.%s.tile FROM src.%s WHERE (src.%s.x = %d) AND (src.%s.y = %d) AND (src.%s.zoom = %d)" % (t, t, t, t, x, t, y, t, zoom))
 		row = c.fetchone()
-		assert row != None
+		assert row is not None
 		updated, tile = row
 		row = c.fetchone()
-		assert row == None
+		assert row is None
 		c.execute("INSERT OR REPLACE INTO dst.%s (x, y, zoom, updated, tile) VALUES (?, ?, ?, ?, ?)" % (t,), (x, y, zoom, updated, tile))
 
 		i += 1
@@ -87,10 +87,10 @@ def main ():
 		elif arg == '-noUpdateOnly':
 			updateOnly = False
 		elif arg == '-src':
-			assert srcDb == None
+			assert srcDb is None
 			srcDb = args.pop(0)
 		elif arg == '-dst':
-			assert dstDb == None
+			assert dstDb is None
 			dstDb = args.pop(0)
 		elif arg == '-dir':
 			dirs.append((args.pop(0), updateOnly))
@@ -98,7 +98,7 @@ def main ():
 			err = True
 			break
 
-	if (srcDb == None) or (dstDb == None):
+	if (srcDb is None) or (dstDb is None):
 		err = True
 
 	if not err:

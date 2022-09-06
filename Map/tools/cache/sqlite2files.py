@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Alexander Shiryaev, 2021.12
+# Alexander Shiryaev, 2021.12, 2022.09
 #
 # convert cache from sqlite format to files format
 #
@@ -18,7 +18,7 @@ def process (fromDb, toDir, flipY=False):
 
 	while True:
 		x = c.fetchone()
-		if x == None:
+		if x is None:
 			break
 		assert len(x) == 5
 		x, y, z, updated, tile = x
@@ -50,7 +50,7 @@ def main ():
 		elif x == '-noFlipY':
 			flipY = False
 		elif x == '-dir':
-			assert fromDb != None
+			assert fromDb is not None
 			toDir = args.pop(0)
 			process(fromDb, toDir, flipY=flipY)
 		else:

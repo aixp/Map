@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Alexander Shiryaev, 2021.12
+# Alexander Shiryaev, 2021.12, 2022.09
 #
 # convert cache from files format to sqlite format
 #
@@ -57,7 +57,7 @@ def main ():
 		elif x == '-noFlipY':
 			flipY = False
 		elif x == '-dir':
-			assert toDb != None
+			assert toDb is not None
 			fromDir = args.pop(0)
 			process(fromDir, toDb, flipY=flipY)
 		else:
